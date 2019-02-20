@@ -1,0 +1,36 @@
+
+pipeline {
+agent any
+
+stages {
+        stage ('checkout code') {
+            steps {
+                git branch: 'master',
+                    
+                    url: 'https://github.com/satishrawat/kube-pipeline.git'
+					                
+            
+        }               
+		}
+		stage ('complie stage') {
+            steps {
+                sh 'mvn clean install'
+                    
+            }
+		}
+        stage ('Testing Stage') {
+            steps {
+                sh 'echo "Hi This is testing"'
+                
+            }
+		}
+		
+		stage ('COPY JAR TO JFROG ARTIFACTORY') {
+            steps {
+				    
+					sh 'docker build -t gcr.io/jenkins-cd-228702/test-app:${BUILD_NUMBER} .'
+                    sh 'docker push gcr.io/jenkins-cd-228702/test-app:${BUILD_NUMBER}'
+            }
+        }
+	}
+}	
