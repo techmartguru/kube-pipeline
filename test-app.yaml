@@ -33,7 +33,7 @@ spec:
         app: test
     spec:
       containers:
-        - image: gcr.io/jenkins-cd-228702/test-app:13
+        - image: gcr.io/devops-224605/hello-docker:10
           imagePullPolicy: Always
           name: test
           ports:
