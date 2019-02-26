@@ -23,9 +23,9 @@ podTemplate(label: 'jenkins-slave',
    container('maven') {
 
     stage('Clone Repo') { 
-		git branch: 'dev',
+		git branch: 'master',
                     
-                    url: 'https://github.com/satishrawat/kube-pipeline'
+                    url: 'https://github.com/techmartguru/kube-pipeline'
       
 	   stage('Maven Package') {
                     sh ("mvn clean package -DskipTests")
