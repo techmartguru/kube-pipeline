@@ -22,6 +22,14 @@ podTemplate(label: 'jenkins-slave',
   node ('jenkins-slave') {
    container('maven') {
 
+	     stage("Build displayName") {
+            steps {
+                script {
+                    currentBuild.displayName = "release-1.0"
+                    currentBuild.description = "Build from master "
+                }
+            }
+        }
     stage('Clone Repo') { 
 		git branch: 'master',
                     
