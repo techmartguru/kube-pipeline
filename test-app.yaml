@@ -38,3 +38,20 @@ spec:
           name: test
           ports:
             - containerPort: 8080
+---
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: test-app-hpa-agent
+spec:
+  scaleTargetRef:
+    apiVersion: extensions/v1beta1
+    kind: Deployment
+    name: test
+  minReplicas: 1
+  maxReplicas: 6
+  targetCPUUtilizationPercentage: 40
+status:
+  currentReplicas: 1
+  desiredReplicas: 1            
+            
