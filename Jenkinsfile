@@ -25,8 +25,8 @@ podTemplate(label: 'jenkins-slave',
 	     stage("Build displayName") {
 
                 script {
-                    currentBuild.displayName = "release-1.0"
-                    currentBuild.description = "Build from master "
+                    
+                    currentBuild.description = "release.1.0 "
                 }
             }
 
