@@ -54,7 +54,7 @@ podTemplate(label: 'jenkins-slave',
         }
         stage ('Connect Kubernetes Cluster ') {
             
-            sh 'gcloud auth activate-service-account --key-file kkube-cluster-231707-6b9613e3dd78.json'
+            sh 'gcloud auth activate-service-account --key-file kube-cluster-231707-6b9613e3dd78.json'
             sh 'gcloud container clusters get-credentials kube-poc --zone us-central1-a --project kube-cluster-231707'
             
                 
