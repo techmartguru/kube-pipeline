@@ -1,4 +1,4 @@
-   #!/usr/bin/groovy
+#!/usr/bin/groovy
 
 podTemplate(label: 'jenkins-slave', 
   containers: [
