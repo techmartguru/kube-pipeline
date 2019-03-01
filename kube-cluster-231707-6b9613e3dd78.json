@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "kube-cluster-231707",
+  "private_key_id": "6b9613e3dd78d1c19ff4b0c11d3f5e141cd3ca95",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC1NyRZ/FlSpIp+\nK3AhupprHi+t8tqPEEnfUQNubUWJy4+d8yoqFIoWlFG6y6lIpqX1VD/R8NqLI8tP\nuyO8yn957XZBbTtQ8AKnIPgvsueETglEiDawNXJgSYPcZ8dNpCWykU/VIxVA9cI8\nJt9plP8KwrotAgn6ToqVUxyGl551lhYXfdV8oOH+yYjoUdIIq69DpXhFa+e5xQ6M\ngbdOpC1LZAD+uTbcSeDeN8eag7JQoE97Udy3gBStRxfP7GK87pCXzNeqxro7sFHX\nm2mFQtJk07PoZhXP7iTdxAVN+M5c56im9LkElt2BF24mF/3neXQllE8HbnAreRN7\nf1BAuKc/AgMBAAECggEAQWrzFgMJkdJxZoOy2pI9DX9bsf1yFeRI7rOVvAb5a/mO\n0nPGXGOGyAjqCjdcWKxES/CKi3TZyBH3YsSJba1iYHcvUgYnPBwwsPmvbrS0bCgp\no1JS/8CDlivjzKywH6CqtTBM9AHSud0eLc3QqBJQEafjQr0yMeipkadrrFDOtN6K\ndFQdTnMaoCBBqxCy/2zKHBrL7Aqz8tZ1BwvNov30gwE3EID3QjT4utG74GiGid1p\neuvcZ+0jEK5O0vO2ZSuQJXVPeJPF8gt3Xk4QMVIQ+cuRgGtHNqHVF7IVNQ9F2mMD\n98iErcRTTfMyEkcup4PnXIiQKldsPlXJH+L+z4SNYQKBgQDcobTTekkNye+IZ0Yn\nwBlOQpLQr7qjQ+mbFTAYsNftC72TH/K4pEtHmzV/P8EQSTyBpOlvnYqsIhks+k6h\npdm+hRWPdEH+LS6uElwjkCD8O4TzWsROzxvrBPO95goDePBLu+vfjMQF4CIlu1y3\nqsG+GBTRbvLCT9XO874MUhxpXwKBgQDSQ95tA4M+9HbzvNeCT4rmx+XMIhgg5Hum\n6arvwdRfL21ybF+13Kp2qN0r0EYAXUYWPBt86EDqNDL1redzKUVx8qC4yWJjwF27\nfebsPVBXJ9irNEszNILIqavtlRUEcvqGL01Wz6u/H1fZClgPiWcgNC6+sC3qbHX5\nE33Hw+AuIQKBgGxz1KZLqxNrGyKq2VJ63DWbBf4tE4pjvLYt4RmR/GIablKe1roq\nkJKfWdm2JhnyVhrITLM/9sWMcWGpnPNaykEbvDBrDnF6FkMc5UvZ8kzqmPzitjKj\nHe8V3RaQuIVicoRX2Kdn04er2D1B716dQmVGAx278vrPMaNsLxRxXGPzAoGAZcF6\njv84MOtV9bbaBLJB4lWzHAsT6jcosCo9EzKWeEoXiVxxJS3ZQPuPrXhpqBt7o58L\nHnO3lqAUWVkDvXOnq/FjXon3F5csxWO0sXcqvkMGVDRGgE1VTY7vKVcQiMqr+uxB\nXVW7JA8jEGI1I6+3PJqEVLwmPGCo5xVLtbVRdIECgYBriVYeNDOBF+9a+KYkISYK\n6vaHbPBNLTNUqzcHcwJP3ZJVtvfMJU7A21WOR1umiVhjKyPtD24a5tMVpzPJo8DO\nkUMA2DQmfXZ2/XTeXJSmCQFA2Wt5uduKRiiDeIpXvJUoGntm2z+mdsk4+dLxL2SX\n8e+6KisMml54zaABee2w1A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "jenkins-kube@kube-cluster-231707.iam.gserviceaccount.com",
+  "client_id": "101387603473488275637",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/jenkins-kube%40kube-cluster-231707.iam.gserviceaccount.com"
+}
