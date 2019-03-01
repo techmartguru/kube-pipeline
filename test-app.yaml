@@ -33,7 +33,7 @@ spec:
         app: test
     spec:
       containers:
-        - image: gcr.io/kubernetes-project-219502/hello-docker:10
+        - image: gcr.io/kube-cluster-23170/hello-docker:10
           imagePullPolicy: Always
           name: test
           ports:
